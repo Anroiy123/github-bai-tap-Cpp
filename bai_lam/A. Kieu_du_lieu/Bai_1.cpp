@@ -10,7 +10,7 @@ int main()
       cout<<"Nhap lai N";cin>>N;
    }
    cout<<N*2;
-   cout<<"hello anh em toi la Hung";
+   cout<<"hello anh em ";
    
    system("pause");
    return 0;
