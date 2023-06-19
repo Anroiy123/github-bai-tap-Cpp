@@ -21,13 +21,11 @@ int main()
         }
         if(isPrime)
         {
-            cout<<"YES";
-            
+            cout<<"YES";         
         }
         else 
         {
-            cout<<"NO";
-            
+            cout<<"NO";           
         }
         cout<<endl;
     }
