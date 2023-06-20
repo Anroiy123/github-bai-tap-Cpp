@@ -1,6 +1,4 @@
-#include <string.h>//sap xep mat hang
-#include <stdlib.h>
-#include <ctype.h>
+#include <string>//sap xep mat hang
 #include <iostream>
 using namespace std;
 
@@ -30,7 +28,7 @@ int main(){
 	{
 		if(ds[i].loi_nhuan < ds[j].loi_nhuan)
 		{
-		   struct mat_hang C = ds[i];
+		   mat_hang C = ds[i];
 		   ds[i] = ds[j];
 		   ds[j] = C;	
 		}
