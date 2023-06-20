@@ -11,7 +11,7 @@ int main()
     int cnt_other = 0;
     for(int i = 0 ; i < str.size(); i++)
     {
-         if (isalpha(str[i])) // Kiểm tra xem ký tự có phải là chữ cái hay không
+        if (isalpha(str[i])) // Kiểm tra xem ký tự có phải là chữ cái hay không
         {
             cnt_letter++;
         }
