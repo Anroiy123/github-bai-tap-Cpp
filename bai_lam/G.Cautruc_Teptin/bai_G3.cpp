@@ -19,8 +19,8 @@ int main(){
 	{
 		ds[i].ma = i+1;
 	    cin.ignore();
-		gets(ds[i].ten);
-		gets(ds[i].nhom_hang);
+		cin.getline(ds[i].ten , 1000);
+		cin.getline(ds[i].nhom_hang , 1000);
 		cin>>ds[i].gia_mua>>ds[i].gia_ban;
 		ds[i].loi_nhuan=ds[i].gia_ban-ds[i].gia_mua;	
 	}
