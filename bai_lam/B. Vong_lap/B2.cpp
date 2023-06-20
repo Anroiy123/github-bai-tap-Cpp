@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;cout<<"Nhap N: ";cin>>n;
-    while(n>999999999)
+    while(n>1e9||n<0)
     {
         cout<<"Nhap lai N: ";cin>>n;
     }

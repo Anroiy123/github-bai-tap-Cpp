@@ -28,4 +28,7 @@ int main()
         cout << "So chu so: " << cnt_digit << endl;
         cout << "So ky tu khac: " << cnt_other << endl;
 
+    
+    system("pause");
+    return 0;
 }
