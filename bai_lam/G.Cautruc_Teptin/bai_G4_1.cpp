@@ -17,7 +17,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         ds[i].ma = i + 1;
-        cout << "\n";
+        cout <<endl;
         cin.ignore(); // ignore the newline character left by previous cin
         cin.getline(ds[i].ten, 1000);
         cin.getline(ds[i].ns, 1000);
@@ -42,7 +42,7 @@ int main()
     {
         cout << ds[i].ma << "\t" << ds[i].ten << "\t" << ds[i].ns << "\t" << ds[i].tong << "\t\n";
     }
-
+    system("pause");
     return 0;
 }
 
