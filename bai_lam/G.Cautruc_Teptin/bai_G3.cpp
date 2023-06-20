@@ -10,8 +10,7 @@ struct mat_hang{
 	float gia_mua , gia_ban , loi_nhuan ;
 };
 
-int main()
-{
+int main(){
 	int n;
 	cin>>n;
 	struct mat_hang ds[n];
