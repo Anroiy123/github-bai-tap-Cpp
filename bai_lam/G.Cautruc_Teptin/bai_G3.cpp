@@ -10,7 +10,8 @@ struct mat_hang{
 	float gia_mua , gia_ban , loi_nhuan ;
 };
 
-int main(){
+int main()
+{
 	int n;
 	cin>>n;
 	struct mat_hang ds[n];
@@ -18,7 +19,7 @@ int main(){
 	for(int i=0; i<n; i++)
 	{
 		ds[i].ma = i+1;
-		scanf("\n");
+	    cin.ignore();
 		gets(ds[i].ten);
 		gets(ds[i].nhom_hang);
 		cin>>ds[i].gia_mua>>ds[i].gia_ban;
@@ -41,7 +42,8 @@ int main(){
 		cout<<ds[i].ma<<"\t"<<ds[i].ten<<"\t"<<ds[i].nhom_hang<<"\t"<<ds[i].loi_nhuan<<"\t\n";
 	}
 	   	
-
+    system("pause");
+	return 0;
 }
 
 /*
