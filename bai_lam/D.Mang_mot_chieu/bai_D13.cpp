@@ -7,7 +7,6 @@ int main ()
     int n;
     cout<<"Nhap N: ";
     cin>>n;
-
     int a[n];
     cout<<"Nhap N phan tu vao mang : ";
     for(int i = 0; i<n; i++)
@@ -28,5 +27,6 @@ int main ()
             cnt[a[i]]=0;
         }
     }
+    system("pause");
     return 0;
 }
